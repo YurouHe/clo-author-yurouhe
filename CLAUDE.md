@@ -23,7 +23,7 @@
 | Language | R; Python; Matlab — use R unless otherwise specified |
 | Branch | main |
 | Project | [Set per project — see README.md] |
-| Target Journals | AER · Econometrica · RES · QJE · JPE · RESTAT · AEJ · RAND · JPubE — override per project |
+| Target Journals | AER; Econometrica; RES; QJE; JPE; RESTAT; AEJ; RAND; JPubE [Set per project — see README.md] |
 
 ---
 
