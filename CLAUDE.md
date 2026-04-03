@@ -14,8 +14,9 @@
 **Project:** [Set per project — see README.md]
 **Target Journals:** AER · Econometrica · RES · QJE · JPE · RESTAT · AEJ · RAND · JPubE — override per project-->
 
-| Researcher | Yurou He |
+| Field | Value |
 |---|---|
+| Researcher | Yurou He |
 | Institution | Cornell University |
 | Field | Economics — Environmental Economics, Urban Economics, Microeconomic Theory |
 | Methods | DiD / Event study; IV / 2SLS; RDD; Structural Estimation; Microeconomic Theory Modeling |
