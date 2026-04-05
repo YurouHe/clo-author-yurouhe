@@ -34,7 +34,7 @@
 - **Single source of truth** -- Paper `main.tex` is authoritative; talks and supplements derive from it
 - **Quality gates** -- weighted aggregate score; nothing ships below 80/100; see `quality.md`
 - **Worker-critic pairs** -- every creator has a paired critic; critics never edit files
-- **Auto-memory** -- corrections and preferences are saved automatically via Claude Code's built-in memory system
+- **Auto-memory** -- corrections and preferences are saved automatically via Claude Code's built-in memory system; see Memory protocol: see `.claude/rules/logging.md`
 
 ---
 
