@@ -42,3 +42,18 @@ Append to `quality_reports/research_journal.md` whenever an agent completes work
 **Why it exists:** Agents read this to understand pipeline state — the editor checks what strategist-critic scored, the orchestrator checks which phases passed, the coder-critic checks what the coder built. It's the shared context across agents.
 
 Agent outputs (reports, scripts, memos, decisions) are saved to `quality_reports/` by the skills that produce them.
+
+
+## Memory Update Protocol
+
+When the user asks to "remember where we are", "update memory", or similar, update **both**:
+
+1. **`MEMORY.md`** (project root) — append `[LEARN]` entries for decisions made, lessons learned, and current project state. Commit this file.
+2. **Claude auto-memory** (`~/.claude/projects/.../memory/`) — update the relevant memory file (e.g. `project_managed_retreat.md`) with current status and next steps. Update the one-liner in the index `MEMORY.md`.
+
+Neither alone is sufficient.
+
+## Session Start
+
+At the start of every session: read `CLAUDE.md`, then `README.md`, then `MEMORY.md` (project root) to reconstruct where we left off.
+
