@@ -5,9 +5,12 @@
      Keep this file under ~150 lines — Claude loads it every session.
      See the guide at https://hugosantanna.github.io/clo-author/ for full documentation. -->
 
-**Project:** [YOUR PROJECT NAME]
-**Institution:** [YOUR INSTITUTION]
-**Field:** [YOUR FIELD — Economics by default. Can be adapted to Finance, Accounting, Marketing, etc.]
+**Project:** [Set per project — see README.md]
+**Institution:** Cornell University
+**Field:** Economics — Environmental Economics, Urban Economics, Microeconomic Theory
+**Methods:** DiD / Event study; IV / 2SLS; RDD; Structural Estimation; Microeconomic Theory Modeling
+**Language:** R; Python; Matlab — use R unless otherwise specified
+**Target Journals:** AER; Econometrica; RES; QJE; JPE; RESTAT; AEJ; RAND; JPubE [Set per project — see README.md]
 **Branch:** main
 
 ---
