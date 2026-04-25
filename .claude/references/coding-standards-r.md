@@ -54,6 +54,10 @@ These standards apply to all R code produced by the Coder agent. Derived from C+
 - **Pipes:** native `|>` preferred; `%>%` acceptable in existing code — never mix
 - **Lambdas:** `\(x)` syntax, not `function(x)`
 - **Braces:** opening on same line, closing on own line
+- **Inline over factor.** Do not factor logic into helper functions unless the
+  content is (a) highly specialized AND (b) reused in 3+ places. Default to 
+  inlined loops with `# debug-stub <- list[[1]]` comments at each loop entry. 
+  Functions make  line-by-line stepping in RStudio difficult.
 
 ---
 
